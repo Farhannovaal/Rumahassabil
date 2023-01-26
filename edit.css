@@ -284,12 +284,6 @@ section{
 
 /* Project Start */
 
-    .project{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
-
     .project-wrapper .row1-project{
         display: flex;
         justify-content: space-between;
@@ -437,7 +431,6 @@ section{
 .footer .footer-wrapper{
     display: flex;
     justify-content: space-between;
-    margin: 30px auto;
     flex-wrap: wrap;
 }
 
@@ -494,7 +487,6 @@ section{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0px auto;
-    text-align: center;
 }
 
 .footer .content-right .heading-more, .heading-porto, .heading-feedback{
@@ -506,7 +498,6 @@ section{
 
 .footer .content-right .about a, .porto a{
     display: flex;
-    justify-content: center;
     padding: 15px;
     color: #00000099;
 }
@@ -520,7 +511,8 @@ section{
     padding: 20px;
     margin-top: 10px;
     border-radius: 5px;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer input {
@@ -597,5 +589,12 @@ section{
 
         color: white;
         
+    }
+}
+
+@media screen and (max-width:450px){
+    .home-wrapper .sub-heading{
+        width: auto;
+        flex-wrap: wrap;
     }
 }
