@@ -605,4 +605,9 @@ section{
         width: auto;
         flex-wrap: wrap;
     }
+
+    .project-wrapper .toggle-slider i{
+        
+        padding-top: 20px;
+    }
 }
