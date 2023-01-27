@@ -31,6 +31,7 @@ body{
 }
 
 .navbar .navbar-wrapper{
+    padding: 0px 40px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -85,7 +86,8 @@ section{
 /* Home Start */
 
 .home-wrapper{
-    margin: auto    ;
+    margin: auto;
+    padding: 0px 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -166,6 +168,7 @@ section{
     .service .service-wrapper .row1{
         text-align: center  ;
         margin: auto;
+        padding: 0px 40px;
     }
 
     .service-wrapper .label-skill{
@@ -201,13 +204,14 @@ section{
         gap: 20px;
         border-radius: 50px 50px 0 0;
         font-family: var(--heading-font);
+        padding: 30px;
     
     }
     .row2 .box-service{
         position: relative;
         max-width: 400px;
         text-align: center;
-        padding: 30px;
+        padding: 30px ;
     }
     .box-service i{
         font-size: 2rem;
@@ -287,6 +291,7 @@ section{
     .project-wrapper .row1-project{
         display: flex;
         justify-content: space-between;
+        padding: 0px 40px;
         
     }
 
@@ -328,7 +333,7 @@ section{
         width: 90%;
         left: 50%;
         transform: translateX(-50%);
-        padding: 30px;
+        padding: 40px;
         border-radius: 20px;
         border: 3px solid white;
         backdrop-filter: blur(3px);
@@ -432,6 +437,7 @@ section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0px 40px;
 }
 
 .footer-wrapper .content-left .heading-footer{
