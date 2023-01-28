@@ -165,10 +165,14 @@ section{
 /* Home End */  
 
 /* Service Start */
+
+    .service-wrapper{
+        margin-left: 20px;
+    }
     .service .service-wrapper .row1{
         text-align: center  ;
         margin: auto;
-        padding: 0px 40px;
+        padding: 0px 50px;
     }
 
     .service-wrapper .label-skill{
@@ -204,7 +208,7 @@ section{
         gap: 20px;
         border-radius: 50px 50px 0 0;
         font-family: var(--heading-font);
-        padding: 30px;
+        padding: 0px;
     
     }
     .row2 .box-service{
@@ -316,14 +320,18 @@ section{
     }
 
     .project-wrapper .row2{
-        margin-top: 100px;
-        margin-bottom: 50px;
+        margin: 30px 20px;
+        width: 450px;
     }
     .project-wrapper .card-product{
         position: relative;
         width: 400px;
         border-radius: 20px;
         overflow-y: hidden;
+    }
+
+    .project-wrapper .card-product img{
+        width: 100%;
     }
     
     .row2 .detail-product{
@@ -333,7 +341,7 @@ section{
         width: 90%;
         left: 50%;
         transform: translateX(-50%);
-        padding: 40px;
+        text-align: center;
         border-radius: 20px;
         border: 3px solid white;
         backdrop-filter: blur(3px);
@@ -609,5 +617,10 @@ section{
     .project-wrapper .toggle-slider i{
         
         padding-top: 20px;
+    }
+    .home-wrapper{
+
+        margin: auto;
+        padding: 50px;
     }
 }
