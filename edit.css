@@ -167,12 +167,11 @@ section{
 /* Service Start */
 
     .service-wrapper{
-        margin-left: 20px;
+        margin: auto;
     }
     .service .service-wrapper .row1{
         text-align: center  ;
-        margin: auto;
-        padding: 0px 50px;
+        margin: auto 50px;
     }
 
     .service-wrapper .label-skill{
@@ -199,17 +198,18 @@ section{
     }
 
     .service-wrapper .row2{
+        
         background-color: var(--main-color);
         color: #fff;
         display: flex;
-        margin: 50px ;
-        justify-content: space-around;
+        margin-top: 50px;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
         border-radius: 50px 50px 0 0;
         font-family: var(--heading-font);
-        padding: 0px;
-    
+        justify-content: space-around;
+        margin-left: 40px;
     }
     .row2 .box-service{
         position: relative;
@@ -253,8 +253,10 @@ section{
         color: #fff;
     }
 
-    .row3{
+    .service-wrapper .row3{
+
         text-align: center;
+        margin: 40px auto;
     }
     .row3 .label-row3{
         font-size: 20px;
@@ -295,7 +297,7 @@ section{
     .project-wrapper .row1-project{
         display: flex;
         justify-content: space-between;
-        padding: 0px 40px;
+        margin-left: 40px;
         
     }
 
@@ -320,8 +322,8 @@ section{
     }
 
     .project-wrapper .row2{
-        margin: 30px 20px;
-        width: 450px;
+        margin: 30px 40px;
+        width: 100%;
     }
     .project-wrapper .card-product{
         position: relative;
@@ -341,7 +343,7 @@ section{
         width: 90%;
         left: 50%;
         transform: translateX(-50%);
-        text-align: center;
+        padding: 50px;
         border-radius: 20px;
         border: 3px solid white;
         backdrop-filter: blur(3px);
@@ -615,12 +617,13 @@ section{
     }
 
     .project-wrapper .toggle-slider i{
-        
         padding-top: 20px;
     }
-    .home-wrapper{
 
+    .home-wrapper{
         margin: auto;
         padding: 50px;
     }
+    
+
 }
