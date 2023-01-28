@@ -269,16 +269,15 @@ section{
         font-size: 25px;
         font-weight: 700;
         color: #00000085;
-        margin-top: 10px;
+        margin: 10px 40px;
         font-family: var(--heading-font);
     }
 
     .row3 .galleryskill{
         display: flex;
-        justify-content:center  ;
         gap: 50px;
         flex-wrap: wrap;
-        margin-top: 30px;
+        margin: 30px 40px;        justify-content: center ;
     }
 
     .galleryskill .box-img{
