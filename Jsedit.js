@@ -8,11 +8,6 @@ menuOpen.addEventListener('click', function(){
 
 })
 
-
-
-
-
-
 var swiper = new Swiper(".mySwiper", {
     grabCursor: true,
     centeredSlides: false,
@@ -29,5 +24,9 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".bxs-chevron-right-circle",
         prevEl: ".bxs-chevron-left-circle",
       },
+      
+
+  
+
   
   });

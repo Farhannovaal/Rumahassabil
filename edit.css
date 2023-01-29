@@ -455,6 +455,7 @@ section{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0px 40px;
+    margin: 40px 40px;
 }
 
 .footer-wrapper .content-left .heading-footer{
@@ -505,11 +506,12 @@ section{
     padding: 0px 5px;
 }
 
+
 .footer .content-right{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 30px auto;
+    margin: auto;
     gap: 20px;
     
 }

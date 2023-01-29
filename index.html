@@ -35,8 +35,8 @@
     </header>
 
     <section class="home" id="home">
-        <div class="container home-wrapper">
-            <div class="content-left">
+        <div class="container home-wrapper" >
+            <div class="content-left" data-aos="fade-right">
                     <h1 class="heading">
                         Hallo, thanks for coming welcome to my Website <span>Portofolio.</span>
                     </h1>
@@ -58,7 +58,7 @@
                     </div>    
             </div>
 
-            <div class="content-right">
+            <div class="content-right" data-aos="fade-left">
                 <div class="img-wrapper">
                      <img src="img/bahanhomeimg.png" alt="">
                 </div>
@@ -69,7 +69,7 @@
     <!--  Service Start -->
 
         <section class="service">
-            <div class="container service-wrapper">
+            <div class="container service-wrapper" data-aos="fade-up">
                 <div class="row1">
                     <p class="label-skill">
                         What can I do?
@@ -146,7 +146,7 @@
     <!-- Project Start -->
 
         <section class="project">
-            <div class="container project-wrapper">
+            <div class="container project-wrapper" data-aos="zoom-out">
                 <div class="row1-project">
                     <div class="project-left">
                         <p class="label-project">
@@ -266,7 +266,7 @@
 
         <footer class="footer" id="footer">
             <div class="container footer-wrapper">
-                <div class="content-left">
+                <div class="content-left" data-aos="fade-right">
                     <h1 class="heading-footer">
                         Farhan<span>noval</span>
                     </h1>
@@ -276,9 +276,6 @@
                     <div class="sosialmedia">
                         <div class="box-sosmed">
                             <a href=""><i class='bx bxl-instagram'></i></a>
-                        </div>
-                        <div class="box-sosmed">
-                            <a href=""><i class='bx bxl-linkedin-square' ></i></a>
                         </div>
                         <div class="box-sosmed">
                           <a href=""><i class='bx bxl-whatsapp'></i></a>
@@ -293,7 +290,7 @@
                     </div>
                 </div>
 
-                <div class="content-right">
+                <div class="content-right" data-aos="fade-left">
                     <div class="about">
                         <h1 class="heading-more">
                             More about me
@@ -327,8 +324,16 @@
 
 <!-- Footer End -->
 
- 
+ <!-- AOS -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+    duration: 2000,
+   });
+ </script>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 <script src="Jsedit.js"> </script>
 
 </body>
