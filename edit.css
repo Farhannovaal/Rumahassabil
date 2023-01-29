@@ -148,6 +148,10 @@ section{
     color: white;
 }
 
+.home-wrapper .btnproject-wrapper:hover{
+    background-color: grey;
+}
+
 .home-wrapper .img-wrapper{
     max-width: 500px; 
 }
@@ -318,6 +322,9 @@ section{
     .row1-project .toggle-slider i{
         font-size: 45px;
         cursor: pointer;
+        color: black;
+    }
+    .row1-project .toggle-slider i:hover{
         color: var(--main-color);
     }
 
@@ -519,6 +526,12 @@ section{
     padding: 15px;
     color: #00000099;
 }
+.footer .content-right .about a:hover{
+    color: var(--main-color);
+}
+.footer .content-right .porto a:hover{
+    color: var(--main-color);
+}
 
 .footer .feedback{
     padding: 15px;
@@ -549,6 +562,9 @@ section{
     background-color: var(--second-color);
     border-radius: 10px;
     font-size: 14px;
+}
+.footer .btn-submit:hover{
+    background-color: grey;
 }
 .footer .send-email a{
     color: white;
@@ -624,8 +640,4 @@ section{
         margin: auto;
         padding: 50px;
     }
-
-    .service-wrapper {}
-    
-
 }
