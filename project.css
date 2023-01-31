@@ -89,6 +89,10 @@ section{
     margin: auto;
 }
 
+.home-wrapper .content-home{
+    margin-left: 30px;
+}
+
 .home-wrapper .heading-home{
     color: var(--second-color);
     font-size: 40px;
@@ -115,18 +119,23 @@ section{
 /*  Project */
 
 .project-wrapper{
-    margin:auto;
+    margin: auto;
 }
 
+.project-wrapper .content-project{
+    margin-left: 30px;
+}
 .project-wrapper .row1-project .heading{
   font-size: 20px;
   color: var(--main-color);
   font-family: var(--main-font);
   font-weight: 700;
+  
 }
 
 .project-wrapper .swipper-container{
     margin-top: 40px;
+    
 
 }
 .project-wrapper .row1-project,.row2-project,.row3-project{
