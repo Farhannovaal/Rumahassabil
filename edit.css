@@ -37,6 +37,7 @@ body{
     justify-content: space-between;
     margin: auto;
     align-items: center;
+    z-index: 2;
 }
 
 section{
@@ -298,10 +299,13 @@ section{
 
 /* Project Start */
 
+    .project-wrapper{
+        margin: auto;
+    }
     .project-wrapper .row1-project{
         display: flex;
         justify-content: space-between;
-        margin-left: 40px;
+        margin-left: auto 40px;
         
     }
 
@@ -450,12 +454,14 @@ section{
 
 /*  Footer */
 
+.footer{
+    margin: auto;
+}
 .footer .footer-wrapper{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0px 40px;
-    margin: 40px 40px;
+    margin: auto;
 }
 
 .footer-wrapper .content-left .heading-footer{
@@ -643,3 +649,5 @@ section{
         padding: 50px;
     }
 }
+
+

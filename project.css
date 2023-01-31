@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;600;700&display=swap');
+
+:root{
+    --main-color :  #217713;
+    --second-color : #FFA451;
+    --body-color : #D0FCFF;
+
+    --main-font:'Open Sans', sans-serif;
+    --heading-font : 'Raleway', sans-serif;
+
+}
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+
+section{
+    margin-top: 200px;
+}
+
+
+body{
+    background-color: #CAF8D4;
+}
+
+.navbar .navbar-wrapper{
+    padding: 0px 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+section{
+    margin-top: 60px;
+}
+
+.container{
+    max-width: 1500px;
+}
+.navbar-wrapper .menu-toggle{
+    display: none;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-family: var(--heading-font);
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.navbar .logo span{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    color: var(--second-color);
+}
+
+.navbar .menu-wrapper {
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
+.navbar .menu-wrapper .menu {
+    display: flex;
+    gap: 70px;  
+}
+.navbar .menu-wrapper .menu .menu-link{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 500;
+    color: var(--main-color);
+    
+}
+.navbar .menu-wrapper .menu .menu-link.active{
+    color: var(--second-color);
+    font-weight: 700;
+}
+
+/* Home Start */
+
+.home-wrapper{
+    margin: auto;
+}
+
+.home-wrapper .heading-home{
+    color: var(--second-color);
+    font-size: 40px;
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+
+.home-wrapper .heading-home span{
+    color:var(--main-color);
+    font-size: 30px;
+ 
+}
+
+.home-wrapper .subheading-home{
+    font-family: var(--main-font)   ;
+    opacity: 50%;
+    font-size: 20px;
+    width: 650px;
+    margin-top: 20px;
+}
+
+
+
+/*  Project */
+
+.project-wrapper{
+    margin:auto;
+}
+
+.project-wrapper .row1-project .heading{
+  font-size: 20px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+
+.project-wrapper .swipper-container{
+    margin-top: 40px;
+
+}
+.project-wrapper .row1-project,.row2-project,.row3-project{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.project-wrapper .heading i{
+    color: var(--second-color);
+    padding-left: 20px;
+}
+.project-wrapper .card-product{
+    position: relative;
+    width: 400px;
+    border-radius: 20px;
+    overflow-y: hidden;
+}
+
+.project-wrapper .card-product img{
+    width: 100%;
+}
+
+.row1-project .detail-product{
+    background-color: rgba(245, 222, 179, 0.242);
+    position: absolute;
+    bottom: -50%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 50px;
+    border-radius: 20px;
+    border: 3px solid white;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.42);
+    transition: .5s ease-in-out;    
+}
+.card-product:hover .detail-product{
+    bottom: 0;
+    transition: .5s ease-in-out;
+
+}
+
+.detail-product .category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category .label-category{
+    padding: 5px 20px;
+    background-color: var(--second-color);
+    color: white;
+    border-radius: 5px;
+    font-family: var(--heading-font);
+}
+
+
+
+.detail-product .title-card h1{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: var(--heading-font);
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.detail-product .review{
+    display: flex;
+    gap: 10px;
+
+}
+
+.review i{
+    color: yellow;
+}
+.detail-product .body-card{
+    margin: 25px 0;
+    color: #00000080;
+    font-weight: 400;
+    font-family: var(--heading-font);
+}
+.detail-product .btn-product{
+    background-color: var(--second-color);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: var(--heading-font);
+}
+.btn-product a{
+    color: white;
+}
+
+
+/* Project End */
+.footer .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.footer-wrapper .content-left .heading-footer{
+    color: var(--main-color);
+    font-family: var(--heading-font);
+    font-size: 40px;
+}
+.footer-wrapper .content-left .heading-footer span{
+    color: var(--second-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+.content-left  .subheading-footer{
+    font-size: 15px;
+    font-weight: 400;
+    color: #00000080;
+    flex-wrap: wrap;
+    width: 350px;
+    font-family: var(--heading-font);
+}
+
+.content-left .sosialmedia,.sosialmedia a {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    margin: 30px auto;
+    color: var(--main-color);
+}
+
+.content-left .sosialmedia i{
+    font-size: 35px;
+}
+
+.content-left .copyright{
+    display: flex; 
+    flex-wrap: wrap;   
+    width: 400px;
+}
+.content-left .copyright p{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    flex-wrap: wrap;
+    width: 311px;
+}
+.content-left .copyright i{
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+
+.footer .content-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+    
+}
+
+.footer .content-right .heading-more, .heading-porto, .heading-feedback{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--main-color);
+    font-family: var(--heading-font);
+}
+
+.footer .content-right .about a, .porto a{
+    display: flex;
+    padding: 15px;
+    color: #00000099;
+}
+.footer .content-right .about a:hover{
+    color: var(--main-color);
+}
+.footer .content-right .porto a:hover{
+    color: var(--main-color);
+}
+
+.footer .feedback{
+    padding: 15px;
+}
+
+.footer .send-email{
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer input {
+    width: 245px;
+    font-size: 10px;
+    font-size: 400;
+    border: none;
+}
+
+.footer input:focus{
+    outline: none;
+}
+
+.footer .btn-submit{
+    padding: 5px 15px;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    font-size: 14px;
+}
+.footer .btn-submit:hover{
+    background-color: grey;
+}
+.footer .send-email a{
+    color: white;
+    font-family: var(--heading-font);
+}
+
+.footer .content-left{
+    flex: 0 0 40%;
+}
+
+.footer .content-right{
+    flex: 0 0 60%;
+}
+
+@media screen and (max-width:960px){
+
+
+    
+    .menu-wrapper .menu .menu-link{
+        font-size: 1rem;
+        color: white;
+    }
+
+    .menu-wrapper .btn-number{
+        
+        padding: 20px 25px;
+       
+    }
+    .navbar .navbar-wrapper{
+       padding: 0 30px;
+    }
+    .navbar-wrapper .menu-toggle{
+        display: initial;
+        font-size: 2.5rem;
+        color: var(--main-color)r;
+    }
+
+    .home-wrapper .btnproject-wrapper{
+        padding: 10px 10px;
+        width: 300px;
+        font-size: 20px;
+        margin: 30px 30px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .navbar-wrapper .menu-wrapper{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding-bottom: 3rem;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .5s ease-in-out ;
+        background-color: var(--main-color);
+    }
+    .navbar-wrapper .menu-wrapper.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: .5s ease-in-out ;
+        
+    }
+    .menu-toggle .bx-x{
+        transform: rotate(360deg) ;
+        transition: .5s;
+    }
+    .navbar-wrapper .menu-wrapper .menu{
+        display: block;
+        
+    }
+    .menu-wrapper .menu .menu-list{
+        margin: 30px 0;
+    }
+    .menu .menu-list .menu-link{
+        color: white ;
+        
+    }
+    .navbar .menu-wrapper .menu .menu-link{
+
+        color: white;
+        
+    }
+}
+
+@media screen and (max-width:450px){
+    .home-wrapper .sub-heading{
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .project-wrapper .toggle-slider i{
+        padding-top: 20px;
+    }
+
+    .home-wrapper{
+        margin: auto;
+        padding: 50px;
+    }
+}
