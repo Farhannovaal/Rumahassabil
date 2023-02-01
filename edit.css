@@ -35,7 +35,6 @@ body{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: auto;
     align-items: center;
     z-index: 2;
 }
@@ -45,7 +44,7 @@ section{
 }
 
 .container{
-    max-width: 1500px;
+    max-width: 1650px;
 }
 .navbar-wrapper .menu-toggle{
     display: none;
@@ -55,6 +54,7 @@ section{
     font-family: var(--heading-font);
     color: var(--main-color);
     font-weight: 600;
+    margin-left: 20px;
 }
 
 .navbar .logo span{
@@ -87,8 +87,8 @@ section{
 /* Home Start */
 
 .home-wrapper{
-    margin: auto;
-    padding: 0px 40px;
+
+    margin-left: 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -171,9 +171,7 @@ section{
 
 /* Service Start */
 
-    .service-wrapper{
-        margin: auto;
-    }
+    
     .service .service-wrapper .row1{
         text-align: center  ;
         margin-left: 40px;
@@ -298,9 +296,7 @@ section{
 /* Service End */
 
 /* Project Start */
-.project-wrapper{
-    margin: auto;
-}
+
     
     .project-wrapper .row1-project{
         display: flex;
@@ -333,7 +329,7 @@ section{
     }
 
     .project-wrapper .row2{
-        margin: 30px 40px;
+        margin: 30px 20px;
         width: 100%;
     }
     .project-wrapper .card-product{
