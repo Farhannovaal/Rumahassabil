@@ -176,7 +176,7 @@ section{
     }
     .service .service-wrapper .row1{
         text-align: center  ;
-        margin: auto 50px;
+        margin-left: 40px;
     }
 
     .service-wrapper .label-skill{
@@ -214,7 +214,7 @@ section{
         border-radius: 50px 50px 0 0;
         font-family: var(--heading-font);
         justify-content: space-around;
-        margin-left: 40px;
+        margin-left:50px;
     }
     .row2 .box-service{
         position: relative;
@@ -298,14 +298,14 @@ section{
 /* Service End */
 
 /* Project Start */
-
-    .project-wrapper{
-        margin: auto;
-    }
+.project-wrapper{
+    margin: auto;
+}
+    
     .project-wrapper .row1-project{
         display: flex;
         justify-content: space-between;
-        margin-left: auto 40px;
+        margin-left: 40px;
         
     }
 
@@ -461,7 +461,7 @@ section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: auto;
+    margin-left: 40px
 }
 
 .footer-wrapper .content-left .heading-footer{
@@ -517,7 +517,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: auto;
+    margin: 20px auto;
     gap: 20px;
     
 }
