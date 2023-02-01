@@ -439,4 +439,8 @@ section{
     .home-wrapper .subheading-home{
         width: 350px;
     }
+
+    .footer-wrapper .about{
+        margin-top: 20px;
+    }
 }
