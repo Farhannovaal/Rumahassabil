@@ -235,7 +235,8 @@ section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 40px auto;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
 .footer-wrapper .content-left .heading-footer{
@@ -370,26 +371,13 @@ section{
         color: white;
     }
 
-    .menu-wrapper .btn-number{
-        
-        padding: 20px 25px;
-       
-    }
-    .navbar .navbar-wrapper{
-       padding: 0 30px;
-    }
     .navbar-wrapper .menu-toggle{
         display: initial;
         font-size: 2.5rem;
         color: var(--main-color)r;
     }
 
-    .home-wrapper .btnproject-wrapper{
-        padding: 10px 10px;
-        width: 300px;
-        font-size: 20px;
-        margin: 30px 30px;
-    }
+  
 }
 
 @media screen and (max-width:769px) {
@@ -406,6 +394,7 @@ section{
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .5s ease-in-out ;
         background-color: var(--main-color);
+        z-index: 2;
     }
     .navbar-wrapper .menu-wrapper.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -446,6 +435,8 @@ section{
 
     .home-wrapper{
         margin: auto;
-        padding: 50px;
+    }
+    .home-wrapper .subheading-home{
+        width: 350px;
     }
 }
