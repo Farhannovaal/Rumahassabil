@@ -53,7 +53,6 @@ section{
     font-family: var(--heading-font);
     color: var(--main-color);
     font-weight: 600;
-    margin-left: 20px;
 }
 
 .navbar .logo span{
@@ -424,6 +423,10 @@ section{
 }
 
 @media screen and (max-width:450px){
+
+    .navbar{
+        margin-top: 40px;
+    }
     .home-wrapper .sub-heading{
         width: auto;
         flex-wrap: wrap;
