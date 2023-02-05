@@ -21,13 +21,13 @@
     
 }
 
-section{
-    margin-top: 200px;
-}
-
 
 body{
     background-color: #CAF8D4;
+}
+
+header{
+    margin-top: 50px;
 }
 
 .navbar .navbar-wrapper{
@@ -36,7 +36,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
 }
 
 section{
@@ -66,7 +65,6 @@ section{
 .navbar .menu-wrapper {
     display: flex;
     gap: 50px;
-    margin: 50px;
 }
 .navbar .menu-wrapper .menu {
     display: flex;

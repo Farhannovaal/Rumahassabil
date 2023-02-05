@@ -21,11 +21,6 @@
     
 }
 
-section{
-    margin-top: 200px;
-}
-
-
 body{
     background-color: #CAF8D4;
 }
@@ -40,6 +35,10 @@ body{
 
 section{
     margin-top: 60px;
+}
+
+header{
+    margin-top: 50px;
 }
 
 .container{
@@ -64,7 +63,7 @@ section{
 .navbar .menu-wrapper {
     display: flex;
     gap: 50px;
-    margin: 50px;
+
 }
 .navbar .menu-wrapper .menu {
     display: flex;
