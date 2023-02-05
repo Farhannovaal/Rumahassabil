@@ -23,10 +23,11 @@
 
 body{
     background-color: #CAF8D4;
+    width: 100%;
 }
 
 .navbar .navbar-wrapper{
-    padding: 0px 40px;
+    
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -88,7 +89,7 @@ header{
 }
 
 .home-wrapper .content-home{
-    margin-left: 40px;
+    margin:auto;
 }
 
 .home-wrapper .heading-home{
@@ -117,11 +118,11 @@ header{
 /*  Project */
 
 .project-wrapper{
-    
+
 }
 
 .project-wrapper .content-project{
-    margin-left: 30px;
+    margin:auto;
 }
 .project-wrapper .row1-project .heading{
   font-size: 20px;
@@ -233,8 +234,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 40px;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 
 .footer-wrapper .content-left .heading-footer{

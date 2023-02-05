@@ -25,7 +25,6 @@
 body{
     background-color: #CAF8D4;
     width: 100%;
-    height: 100%;
 }
 
 header{
@@ -512,7 +511,7 @@ section{
 .footer .content-right{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin: 20px auto;
     gap: 20px;
     
@@ -533,55 +532,8 @@ section{
 .footer .content-right .about a:hover{
     color: var(--main-color);
 }
-.footer .content-right .porto a:hover{
-    color: var(--main-color);
-}
 
-.footer .feedback{
-    padding: 15px;
-}
 
-.footer .send-email{
-    background-color: white;
-    padding: 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer input {
-    width: 245px;
-    font-size: 10px;
-    font-size: 400;
-    border: none;
-}
-
-.footer input:focus{
-    outline: none;
-}
-
-.footer .btn-submit{
-    padding: 5px 15px;
-    background-color: var(--second-color);
-    border-radius: 10px;
-    font-size: 14px;
-}
-.footer .btn-submit:hover{
-    background-color: grey;
-}
-.footer .send-email a{
-    color: white;
-    font-family: var(--heading-font);
-}
-
-.footer .content-left{
-    flex: 0 0 40%;
-}
-
-.footer .content-right{
-    flex: 0 0 60%;
-}
 
 
 
@@ -631,6 +583,11 @@ section{
 }
 
 @media screen and (max-width:450px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
 
     .navbar{
         margin-top: 40px;
