@@ -44,7 +44,7 @@ header{
 }
 
 .container{
-    max-width: 1650px;
+    max-width: 100%;
 }
 .navbar-wrapper .menu-toggle{
     display: none;
@@ -121,7 +121,7 @@ header{
 /*  Project */
 
 .project-wrapper{
-
+    
 }
 
 .project-wrapper .content-project{
@@ -192,6 +192,7 @@ header{
     color: white;
     border-radius: 5px;
     font-family: var(--heading-font);
+    margin-bottom: 10px ;
 }
 
 
@@ -232,12 +233,14 @@ header{
 }
 
 
+
 /* Project End */
 .footer .footer-wrapper{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 30px 10px;
+    justify-content: start;
 }
 
 .footer-wrapper .content-left .heading-footer{
@@ -463,11 +466,11 @@ header{
     }
     
     .category .label-category{
-        padding: 5px 20px;
         background-color: var(--second-color);
         color: white;
         border-radius: 5px;
         font-family: var(--heading-font);
+        font-size: 14px;
     }
     
 
@@ -550,4 +553,11 @@ header{
         max-width: 300px;
         font-weight: 500;
     }
+    .project-wrapper .row1-project .heading{
+        font-size: 15px;
+        color: var(--main-color);
+        font-family: var(--main-font);
+        font-weight: 700;
+        
+      }
 }
