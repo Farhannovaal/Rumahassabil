@@ -32,6 +32,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
 }
 
 section{
@@ -89,7 +90,7 @@ header{
 }
 
 .home-wrapper .content-home{
-    margin:auto;
+    margin-left: 10px;
 }
 
 .home-wrapper .heading-home{
@@ -108,9 +109,10 @@ header{
 .home-wrapper .subheading-home{
     font-family: var(--main-font)   ;
     opacity: 50%;
-    font-size: 20px;
-    width: 650px;
+    font-size: 14px;
     margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 300px;
 }
 
 
@@ -122,7 +124,7 @@ header{
 }
 
 .project-wrapper .content-project{
-    margin:auto;
+    margin-left:10px; 
 }
 .project-wrapper .row1-project .heading{
   font-size: 20px;
@@ -234,7 +236,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 30px auto;
+    margin: 30px 10px;
 }
 
 .footer-wrapper .content-left .heading-footer{
@@ -426,6 +428,85 @@ header{
     .navbar{
         margin-top: 40px;
     }
+    .project-wrapper .card-product{
+        position: relative;
+        width: 300px;
+        border-radius: 20px;
+        overflow-y: hidden;
+    }
+     
+    .row2 .detail-product{
+        background-color: rgba(245, 222, 179, 0.242);
+        position: absolute;
+        bottom: -50%;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 50px;
+        border-radius: 20px;
+        border: 3px solid white;
+        backdrop-filter: blur(3px);
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.42);
+        transition: .5s ease-in-out;    
+    }
+    .card-product:hover .detail-product{
+        bottom: 0;
+        transition: .5s ease-in-out;
+    
+    }
+    
+    .detail-product .category{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .category .label-category{
+        padding: 5px 20px;
+        background-color: var(--second-color);
+        color: white;
+        border-radius: 5px;
+        font-family: var(--heading-font);
+    }
+    
+
+    
+    .detail-product .title-card h1{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: var(--heading-font);
+        color: rgba(0, 0, 0, 0.747);
+    }
+    
+    .detail-product .review{
+        display: flex;
+        gap: 5px;
+    
+    }
+    
+    .review i{
+        color: yellow;
+    }
+    .detail-product .body-card{
+        font-size: 15px;
+        margin: 25px 0;
+        color: #00000080;
+        font-weight: 400;
+        font-family: var(--heading-font);
+    }
+    .detail-product .btn-product{
+        background-color: var(--second-color);
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+        font-family: var(--heading-font);
+    }
+    .btn-product a{
+        color: white;
+    }
+
     .home-wrapper .sub-heading{
         width: auto;
         flex-wrap: wrap;
@@ -433,6 +514,20 @@ header{
 
     .project-wrapper .toggle-slider i{
         padding-top: 20px;
+    }
+    .row1-project .detail-product{
+        background-color: rgba(245, 222, 179, 0.242);
+        position: absolute;
+        bottom: -80%;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 50px;
+        border-radius: 20px;
+        border: 3px solid white;
+        backdrop-filter: blur(3px);
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.42);
+        transition: .5s ease-in-out;    
     }
 
     .home-wrapper{

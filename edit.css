@@ -21,30 +21,33 @@
     
 }
 
+section{
+    margin-top: 200px;
+}
+
 
 body{
     background-color: #CAF8D4;
-    width: 100%;
-}
-
-header{
-    margin-top: 50px;
 }
 
 .navbar .navbar-wrapper{
-    padding: 0px 40px;
+    padding: 0px 15px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 
 section{
     margin-top: 60px;
 }
+header{
+    margin-top: 50px;
+}
 
 .container{
-    max-width: 1650px;
+    width: 100% ;
 }
 .navbar-wrapper .menu-toggle{
     display: none;
@@ -87,7 +90,7 @@ section{
 
 .home-wrapper{
 
-    margin-left: 40px;
+    margin-left: 15px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -114,7 +117,7 @@ section{
 .box-career{
     display: flex;
     gap: 80px;
-    margin: 20px auto;
+    padding: 20px;
 }
 
 .box-career .box{
@@ -137,7 +140,7 @@ section{
     border-radius: 20px;
     text-align: center;
     color: #fff;
-    margin: 10  0px auto;
+    margin: 10px auto;
     font-weight: 700;
     font-family: var(--heading-font);
     width: 400px;
@@ -173,7 +176,8 @@ section{
     
     .service .service-wrapper .row1{
         text-align: center  ;
-        margin-left: 40px;
+        margin-left: 10px;
+        margin-bottom: 50px;
     }
 
     .service-wrapper .label-skill{
@@ -205,13 +209,12 @@ section{
         color: #fff;
         display: flex;
         margin-top: 50px;
-        justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
         border-radius: 50px 50px 0 0;
         font-family: var(--heading-font);
         justify-content: space-around;
-        margin-left:50px;
+        margin: 10px;
     }
     .row2 .box-service{
         position: relative;
@@ -271,7 +274,7 @@ section{
         font-size: 25px;
         font-weight: 700;
         color: #00000085;
-        margin: 10px 40px;
+        margin: 10px 10px;
         font-family: var(--heading-font);
     }
 
@@ -300,7 +303,7 @@ section{
     .project-wrapper .row1-project{
         display: flex;
         justify-content: space-between;
-        margin-left: 40px;
+        margin-left: 10px;
         
     }
 
@@ -328,12 +331,12 @@ section{
     }
 
     .project-wrapper .row2{
-        margin: 30px 20px;
+        margin:10px;
         width: 100%;
     }
     .project-wrapper .card-product{
         position: relative;
-        width: 400px;
+        width: 500px;
         border-radius: 20px;
         overflow-y: hidden;
     }
@@ -449,14 +452,10 @@ section{
 
 /*  Footer */
 
-.footer{
-    margin: auto;
-}
 .footer .footer-wrapper{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-left: 40px
+    justify-content: start;
+    margin-left: 10px;
 }
 
 .footer-wrapper .content-left .heading-footer{
@@ -487,7 +486,7 @@ section{
 }
 
 .content-left .sosialmedia i{
-    font-size: 35px;
+    font-size: 55px;
 }
 
 .content-left .copyright{
@@ -496,45 +495,17 @@ section{
     width: 400px;
 }
 .content-left .copyright p{
-    font-size: 14px;
-    color: black;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.765);
     font-weight: 300;
     flex-wrap: wrap;
-    width: 311px;
+    width: 400px;
 }
 .content-left .copyright i{
-    font-size: 15px;
+    font-size: 25px;
     padding: 0px 5px;
+    color: rgba(0, 0, 0, 0.765);
 }
-
-
-.footer .content-right{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px auto;
-    gap: 20px;
-    
-}
-
-.footer .content-right .heading-more, .heading-porto, .heading-feedback{
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--main-color);
-    font-family: var(--heading-font);
-}
-
-.footer .content-right .about a, .porto a{
-    display: flex;
-    padding: 15px;
-    color: #00000099;
-}
-.footer .content-right .about a:hover{
-    color: var(--main-color);
-}
-
-
-
 
 
 
@@ -584,11 +555,6 @@ section{
 
 @media screen and (max-width:450px){
 
-    body{
-        margin: 0;
-        padding: 0;
-    }
-
     .navbar{
         margin-top: 40px;
     }
@@ -602,9 +568,93 @@ section{
     }
 
     .home-wrapper{
-        margin: auto;
-        padding: 50px;
+        margin: 10px;
+
     }
+    .box-career{
+     
+        gap: 20px;
+      
+    }.project-wrapper .card-product{
+        position: relative;
+        width: 350px;
+        border-radius: 20px;
+        overflow-y: hidden;
+    }
+
+    .content-left .heading-footer{
+        
+    }
+    .content-left  .subheading-footer{
+        font-size: 15px;
+        font-weight: 400;
+        color: #00000080;
+        flex-wrap: wrap;
+        width: 350px;
+        font-family: var(--heading-font);
+    }
+    
+    .content-left .sosialmedia,.sosialmedia a {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 30px auto;
+        color: var(--main-color);
+    }
+    
+    .content-left .sosialmedia i{
+        font-size: 35px;
+    }
+    
+    .content-left .copyright{
+        display: flex; 
+        flex-wrap: wrap;   
+        width: 350px;
+    }
+    .content-left .copyright p{
+        font-size: 14px;
+        color: black;
+        font-weight: 300;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .content-left .copyright i{
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    .home-wrapper .sub-heading{
+        color: #00000080;
+        width: 350px;
+        margin-top: 20px;
+    }
+    
+    .service-wrapper .label-skill{
+        font-size: 15px;
+        font-weight: 600px;
+        font-family: var(--heading-font);
+        color: var(--second-color);
+    }
+
+    .service-wrapper .heading-skill{
+        font-size: 25px;
+        font-weight: 700;
+        font-family: var(--heading-font);
+        color: #00000085;
+
+    }
+
+    .service-wrapper .subheading-skill{
+        font-size: 10px;
+        font-family: var(--heading-font);
+        font-weight: 400;
+        color: #00000075;
+
+    }
+    .box-career .box i{
+        color: var(--second-color);
+        font-size: 30px;
+    }
+    
 }
 
 
