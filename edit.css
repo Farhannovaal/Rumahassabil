@@ -31,7 +31,7 @@ body{
 }
 
 .navbar .navbar-wrapper{
-    padding: 0px 15px;
+    padding: 0 10px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -433,9 +433,6 @@ header{
             padding: 20px 25px;
            
         }
-        .navbar .navbar-wrapper{
-           padding: 0 30px;
-        }
         .navbar-wrapper .menu-toggle{
             display: initial;
             font-size: 2.5rem;
@@ -555,9 +552,7 @@ header{
 
 @media screen and (max-width:450px){
 
-    .navbar{
-        margin-top: 40px;
-    }
+    
     .home-wrapper .sub-heading{
         width: auto;
         flex-wrap: wrap;
@@ -567,10 +562,6 @@ header{
         padding-top: 20px;
     }
 
-    .home-wrapper{
-        margin: 10px;
-
-    }
     .box-career{
      
         gap: 20px;
