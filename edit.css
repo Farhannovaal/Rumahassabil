@@ -436,7 +436,7 @@ header{
         .navbar-wrapper .menu-toggle{
             display: initial;
             font-size: 2.5rem;
-            color: var(--main-color)r;
+            color: var(--main-color);
         }
 
         .home-wrapper .btnproject-wrapper{

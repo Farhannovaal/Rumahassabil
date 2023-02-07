@@ -29,11 +29,12 @@ body{
 }
 
 .navbar .navbar-wrapper{
-    padding: 0px 40px;
+    padding: 0px 10px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 
 }
 
@@ -92,7 +93,7 @@ header{
 }
 
 .home-wrapper .content-left{
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .home-wrapper .content-left .heading{
     font-size: 30px;
@@ -109,9 +110,192 @@ header{
 .home-wrapper .content-left .sub-heading{
     margin-top: 20px;
     font-size: 20px;
-    width: 600px;
+    width: 800px;
     flex-wrap: wrap;
     font-family: var(--main-font);
     font-weight: 500;
-    opacity: 50%;
+    opacity: 70%;
+}
+
+
+.home-wrapper .content-left .biodata{
+  
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.home-wrapper .content-left .biodata li{
+    padding-top: 20px;
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-weight: 600;
+    
+}
+@media screen and (max-width:960px){
+
+
+    
+    .menu-wrapper .menu .menu-link{
+        font-size: 1rem;
+        color: white;
+    }
+
+    .menu-wrapper .btn-number{
+        
+        padding: 20px 25px;
+       
+    }
+    .navbar-wrapper .menu-toggle{
+        display: initial;
+        font-size: 2.5rem;
+        color: var(--main-color);
+    }
+
+    .home-wrapper .btnproject-wrapper{
+        padding: 10px 10px;
+        width: 300px;
+        font-size: 20px;
+        margin: 30px 30px;
+    }
+}
+
+
+@media screen and (max-width:769px) {
+    .navbar-wrapper .menu-wrapper{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding-bottom: 3rem;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .5s ease-in-out ;
+        background-color: var(--main-color);
+    }
+    .navbar-wrapper .menu-wrapper.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: .5s ease-in-out ;
+        
+    }
+    .menu-toggle .bx-x{
+        transform: rotate(360deg) ;
+        transition: .5s;
+    }
+    .navbar-wrapper .menu-wrapper .menu{
+        display: block;
+        
+    }
+    .menu-wrapper .menu .menu-list{
+        margin: 30px 0;
+    }
+    .menu .menu-list .menu-link{
+        color: white ;
+        
+    }
+    .navbar .menu-wrapper .menu .menu-link{
+
+        color: white;
+        
+    }
+}
+
+@media screen and (max-width:450px){
+
+    
+    .home-wrapper .sub-heading{
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .project-wrapper .toggle-slider i{
+        padding-top: 20px;
+    }
+
+    .box-career{
+     
+        gap: 20px;
+      
+    }.project-wrapper .card-product{
+        position: relative;
+        width: 350px;
+        border-radius: 20px;
+        overflow-y: hidden;
+    }
+
+    .content-left .heading-footer{
+        
+    }
+    .content-left  .subheading-footer{
+        font-size: 15px;
+        font-weight: 400;
+        color: #00000080;
+        flex-wrap: wrap;
+        width: 350px;
+        font-family: var(--heading-font);
+    }
+    
+    .content-left .sosialmedia,.sosialmedia a {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 30px auto;
+        color: var(--main-color);
+    }
+    
+    .content-left .sosialmedia i{
+        font-size: 35px;
+    }
+    
+    .content-left .copyright{
+        display: flex; 
+        flex-wrap: wrap;   
+        width: 350px;
+    }
+    .content-left .copyright p{
+        font-size: 14px;
+        color: black;
+        font-weight: 300;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .content-left .copyright i{
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    .home-wrapper .sub-heading{
+        color: #00000080;
+        width: 350px;
+        margin-top: 20px;
+    }
+    
+    .service-wrapper .label-skill{
+        font-size: 15px;
+        font-weight: 600px;
+        font-family: var(--heading-font);
+        color: var(--second-color);
+    }
+
+    .service-wrapper .heading-skill{
+        font-size: 25px;
+        font-weight: 700;
+        font-family: var(--heading-font);
+        color: #00000085;
+
+    }
+
+    .service-wrapper .subheading-skill{
+        font-size: 10px;
+        font-family: var(--heading-font);
+        font-weight: 400;
+        color: #00000075;
+
+    }
+    .box-career .box i{
+        color: var(--second-color);
+        font-size: 30px;
+    }
+    
 }
