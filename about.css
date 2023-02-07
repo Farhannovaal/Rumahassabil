@@ -161,12 +161,12 @@ header{
 .body-wrapper{
     display: flex;
     justify-content: space-around;
+    margin: 20px 15px;
+    gap: 15px;
 }
 
 .body-wrapper .content-right{
     width: 500px;
-    margin: 20px 15px;
-    position: relative;
     
 }
 
