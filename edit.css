@@ -31,7 +31,7 @@ body{
 }
 
 .navbar .navbar-wrapper{
-    padding: 0 10px;
+    padding: 15px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -176,7 +176,7 @@ header{
     
     .service .service-wrapper .row1{
         text-align: center  ;
-        margin-left: 10px;
+        margin-left: 15px;
         margin-bottom: 50px;
     }
 
@@ -303,7 +303,7 @@ header{
     .project-wrapper .row1-project{
         display: flex;
         justify-content: space-between;
-        margin-left: 10px;
+        margin-left: 15px;
         
     }
 
@@ -452,7 +452,7 @@ header{
 .footer .footer-wrapper{
     display: flex;
     justify-content: start;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .footer-wrapper .content-left .heading-footer{

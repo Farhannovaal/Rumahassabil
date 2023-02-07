@@ -27,12 +27,11 @@ body{
 }
 
 .navbar .navbar-wrapper{
-    
+    padding: 15px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
 }
 
 section{
@@ -85,12 +84,8 @@ header{
 
 /* Home Start */
 
-.home-wrapper{
-    
-}
-
 .home-wrapper .content-home{
-    margin-left: 10px;
+ margin-left: 15px;   
 }
 
 .home-wrapper .heading-home{
@@ -125,7 +120,7 @@ header{
 }
 
 .project-wrapper .content-project{
-    margin-left:10px; 
+    margin-left:15px; 
 }
 .project-wrapper .row1-project .heading{
   font-size: 20px;
@@ -239,7 +234,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 30px 10px;
+    margin: 30px 15px;
     justify-content: start;
 }
 
