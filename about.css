@@ -27,13 +27,13 @@ body{
 }
 
 .navbar .navbar-wrapper{
-    padding: 10px;
+
     position: relative;
     display: flex;
     justify-content: space-between;
     z-index: 2;
     align-items: center;
-    margin-left: 15px;
+    padding: 15px;
 
 }
 
