@@ -555,4 +555,73 @@ header{
         font-weight: 700;
         
       }
+      .content-left  .subheading-footer{
+        font-size: 15px;
+        font-weight: 400;
+        color: #00000080;
+        flex-wrap: wrap;
+        width: 350px;
+        font-family: var(--heading-font);
+    }
+    
+    .content-left .sosialmedia,.sosialmedia a {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 30px auto;
+        color: var(--main-color);
+    }
+    
+    .content-left .sosialmedia i{
+        font-size: 35px;
+    }
+    
+    .content-left .copyright{
+        display: flex; 
+        flex-wrap: wrap;   
+        width: 350px;
+    }
+    .content-left .copyright p{
+        font-size: 14px;
+        color: black;
+        font-weight: 300;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .content-left .copyright i{
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    .home-wrapper .sub-heading{
+        color: #00000080;
+        width: 350px;
+        margin-top: 20px;
+    }
+    
+    .service-wrapper .label-skill{
+        font-size: 15px;
+        font-weight: 600px;
+        font-family: var(--heading-font);
+        color: var(--second-color);
+    }
+
+    .service-wrapper .heading-skill{
+        font-size: 25px;
+        font-weight: 700;
+        font-family: var(--heading-font);
+        color: #00000085;
+
+    }
+
+    .service-wrapper .subheading-skill{
+        font-size: 10px;
+        font-family: var(--heading-font);
+        font-weight: 400;
+        color: #00000075;
+
+    }
+    .box-career .box i{
+        color: var(--second-color);
+        font-size: 30px;
+    }
 }
