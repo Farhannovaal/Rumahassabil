@@ -492,14 +492,14 @@ header{
     width: 400px;
 }
 .content-left .copyright p{
-    font-size: 24px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.765);
     font-weight: 300;
     flex-wrap: wrap;
-    width: 400px;
+    width: 311px;
 }
 .content-left .copyright i{
-    font-size: 25px;
+    font-size: 15px;
     padding: 0px 5px;
     color: rgba(0, 0, 0, 0.765);
 }
