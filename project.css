@@ -64,7 +64,7 @@ header{
 .navbar .menu-wrapper {
     display: flex;
     gap: 50px;
-
+    z-index: 2;
 }
 .navbar .menu-wrapper .menu {
     display: flex;
@@ -372,218 +372,64 @@ header{
         color: white;
     }
 
+    .menu-wrapper .btn-number{
+        
+        padding: 20px 25px;
+       
+    }
     .navbar-wrapper .menu-toggle{
         display: initial;
         font-size: 2.5rem;
-        color: var(--main-color)r;
+        color: var(--main-color);
     }
 
-  
+    .home-wrapper .btnproject-wrapper{
+        padding: 10px 10px;
+        width: 300px;
+        font-size: 20px;
+        margin: 30px 30px;
+    }
 }
 
 @media screen and (max-width:769px) {
-    .navbar{
-        margin-top: 40px;
-    }
-
-    .project-wrapper{
-        margin:auto;
-    }
-
-    .project-wrapper .heading {
-        margin-left: 15px;
-    }
-    
-    .project-wrapper .card-product{
-        position: relative;
-        width: 300px;
-        border-radius: 20px;
-        overflow-y: hidden;
-    }
- 
-    .card-product:hover .detail-product{
-        bottom: 0;
-        transition: .5s ease-in-out;
-    
-    }
-    
-    .detail-product .category{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .detail-product .label-category{
-        background-color: var(--second-color);
-        color: white;
-        border-radius: 5px;
-        font-family: var(--heading-font);
-        font-size: 14px;
-    }
-    
-    .project-wrapper .row1-project .gallery-img{
-        display: grid;
-        gap: 30px;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    
-    .detail-product .title-card p{
-        font-size: 18px;
-        font-weight: 800;
-        font-family: var(--heading-font);
-        color: rgba(0, 0, 0, 0.955);
-        flex-wrap: wrap;
-    }
-    
-    .detail-product .review{
-        display: flex;
-        gap: 5px;
-    
-    }
-    
-    .review i{
-        color: yellow;
-    }
-    .detail-product .body-card{
-        font-size: 15px;
-        margin: 25px 0;
-        color: #00000080;
-        font-weight: 400;
-        font-family: var(--heading-font);
-    }
-    .detail-product .btn-product{
-        background-color: var(--second-color);
-        width: 50%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-        border-radius: 50px;
-        font-family: var(--heading-font);
-    }
-    .btn-product a{
-        color: white;
-    }
-
-    .home-wrapper .sub-heading{
-        width: auto;
-        flex-wrap: wrap;
-    }
-
-    .project-wrapper .toggle-slider i{
-        padding-top: 20px;
-    }
-
-    .row1-project .detail-product{
-        background-color: rgba(245, 222, 179, 0.242);
+    .navbar-wrapper .menu-wrapper{
         position: absolute;
-        bottom: -80%;
-        width: 90%;
+        top: 100%;
         left: 50%;
         transform: translateX(-50%);
-        padding: 50px;
-        border-radius: 20px;
-        border: 3px solid white;
-        backdrop-filter: blur(3px);
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.42);
-        transition: .5s ease-in-out;    
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding-bottom: 3rem;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .5s ease-in-out ;
+        background-color: var(--main-color);
     }
-
-    .home-wrapper{
-        margin: auto;
-    }
-    .home-wrapper .subheading-home{
-        width: 350px;
-    }
-
-    .footer-wrapper .about{
-        margin-top: 20px;
-    }
-    .home-wrapper .subheading-home{
-        font-family: var(--main-font)   ;
-        opacity: 50%;
-        font-size: 15px;
-        margin-top: 20px;
-        flex-wrap: wrap;
-        max-width: 300px;
-        font-weight: 500;
-    }
-    .project-wrapper .row1-project .heading{
-        font-size: 15px;
-        color: var(--main-color);
-        font-family: var(--main-font);
-        font-weight: 700;
+    .navbar-wrapper .menu-wrapper.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: .5s ease-in-out ;
         
-      }
-      .content-left  .subheading-footer{
-        font-size: 15px;
-        font-weight: 400;
-        color: #00000080;
-        flex-wrap: wrap;
-        width: 350px;
-        font-family: var(--heading-font);
     }
-    
-    .content-left .sosialmedia,.sosialmedia a {
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-        margin: 30px auto;
-        color: var(--main-color);
+    .menu-toggle .bx-x{
+        transform: rotate(360deg) ;
+        transition: .5s;
     }
-    
-    .content-left .sosialmedia i{
-        font-size: 35px;
+    .navbar-wrapper .menu-wrapper .menu{
+        display: block;
+        
     }
-    
-    .content-left .copyright{
-        display: flex; 
-        flex-wrap: wrap;   
-        width: 350px;
+    .menu-wrapper .menu .menu-list{
+        margin: 30px 0;
     }
-    .content-left .copyright p{
-        font-size: 14px;
-        color: black;
-        font-weight: 300;
-        flex-wrap: wrap;
-        width: 300px;
+    .menu .menu-list .menu-link{
+        color: white ;
+        
     }
-    .content-left .copyright i{
-        font-size: 15px;
-        padding: 0px 5px;
-    }
-    .home-wrapper .sub-heading{
-        color: #00000080;
-        width: 350px;
-        margin-top: 20px;
-    }
-    
-    .service-wrapper .label-skill{
-        font-size: 15px;
-        font-weight: 600px;
-        font-family: var(--heading-font);
-        color: var(--second-color);
-    }
+    .navbar .menu-wrapper .menu .menu-link{
 
-    .service-wrapper .heading-skill{
-        font-size: 25px;
-        font-weight: 700;
-        font-family: var(--heading-font);
-        color: #00000085;
-
-    }
-
-    .service-wrapper .subheading-skill{
-        font-size: 10px;
-        font-family: var(--heading-font);
-        font-weight: 400;
-        color: #00000075;
-
-    }
-    .box-career .box i{
-        color: var(--second-color);
-        font-size: 30px;
+        color: white;
+        
     }
 }
 
