@@ -116,11 +116,11 @@ header{
 /*  Project */
 
 .project-wrapper{
-    
+    margin-left: 15px;
 }
 
 .project-wrapper .content-project{
-    margin-left:15px; 
+
 }
 .project-wrapper .row1-project .heading{
   font-size: 20px;
