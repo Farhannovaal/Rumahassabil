@@ -198,6 +198,7 @@ header{
     font-weight: 800;
     font-family: var(--heading-font);
     color: rgba(0, 0, 0, 0.747);
+    flex-wrap: wrap;
 }
 
 .detail-product .review{
