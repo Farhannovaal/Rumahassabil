@@ -135,14 +135,17 @@ header{
     
 
 }
-.project-wrapper .row1-project,.row2-project,.row3-project{
-    margin-top: 40px;
-    width: 100%;
+
+.project-wrapper .row1-project .gallery-img{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
 }
 
 .project-wrapper .heading i{
     color: var(--second-color);
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 .project-wrapper .card-product{
     position: relative;
@@ -154,6 +157,7 @@ header{
 .project-wrapper .card-product img{
     width: 100%;
 }
+
 
 .row1-project .detail-product{
     background-color: rgba(245, 222, 179, 0.242);
@@ -175,24 +179,21 @@ header{
 
 }
 
-.detail-product .category{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.category .label-category{
-    padding: 5px 20px;
+
+.detail-product .label-category{
+    padding: 5px 10px;
     background-color: var(--second-color);
     color: white;
     border-radius: 5px;
     font-family: var(--heading-font);
     margin-bottom: 10px ;
+    text-align: center;
 }
 
 
 
-.detail-product .title-card h1{
+.detail-product .title-card p{
     font-size: 30px;
     font-weight: 800;
     font-family: var(--heading-font);
@@ -427,6 +428,15 @@ header{
     .navbar{
         margin-top: 40px;
     }
+
+    .project-wrapper{
+        margin:auto;
+    }
+
+    .project-wrapper .heading {
+        margin-left: 15px;
+    }
+    
     .project-wrapper .card-product{
         position: relative;
         width: 300px;
@@ -460,7 +470,7 @@ header{
         align-items: center;
     }
     
-    .category .label-category{
+    .detail-product .label-category{
         background-color: var(--second-color);
         color: white;
         border-radius: 5px;
@@ -468,13 +478,20 @@ header{
         font-size: 14px;
     }
     
+    .project-wrapper .row1-project .gallery-img{
+        display: grid;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 20px;
+    }
 
     
-    .detail-product .title-card h1{
-        font-size: 20px;
+    .detail-product .title-card p{
+        font-size: 18px;
         font-weight: 800;
         font-family: var(--heading-font);
-        color: rgba(0, 0, 0, 0.747);
+        color: rgba(0, 0, 0, 0.955);
+        flex-wrap: wrap;
     }
     
     .detail-product .review{
