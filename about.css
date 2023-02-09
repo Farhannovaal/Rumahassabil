@@ -231,6 +231,30 @@ header{
     color: rgba(0, 0, 0, 0.765);
 }
 
+.story .story-wrapper{
+    margin-left: 15px;
+    text-align: center;     
+}
+
+.story .story-wrapper .heading-story{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+.story .story-wrapper .subheading-story{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: var(--main-font);
+    color: var(--second-color);
+}
+
+.story .story-wrapper .body-story{
+    margin: auto;
+    flex-wrap: wrap;
+    font-family: var(--main-font);
+}
 
 
 
