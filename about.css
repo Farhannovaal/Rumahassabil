@@ -379,8 +379,9 @@ header{
     }
 
     .home-wrapper .sub-heading{
-        max-width: 300px;
-        text-align: center;
+        max-width: 350px;
+        flex-wrap: wrap;
+    
     }
 
 
