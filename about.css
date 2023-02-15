@@ -235,6 +235,8 @@ header{
     display: flex;
     justify-content: space-around;
     margin-bottom: 80px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .story .story-wrapper .box-card{
@@ -374,6 +376,11 @@ header{
     .home-wrapper .img-wrapper img{
         width: 50%;
         margin-top: 20px;
+    }
+
+    .home-wrapper .sub-heading{
+        max-width: 300px;
+        text-align: center;
     }
 
 
