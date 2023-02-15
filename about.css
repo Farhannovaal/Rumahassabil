@@ -246,7 +246,7 @@ header{
     flex-wrap: wrap;
     background-color: white;
     padding: 20px;
-    margin: auto;
+    margin: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.439);
 }
@@ -293,7 +293,9 @@ header{
     z-index: 2;
     flex-wrap: wrap;
     display: none;
-
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
     
 }
 
