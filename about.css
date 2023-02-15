@@ -233,7 +233,7 @@ header{
 
 .story .story-wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 80px;
     flex-wrap: wrap;
     gap: 30px;
@@ -243,7 +243,7 @@ header{
     margin-left: 15px;
     text-align: center;
     width: 400px;
-    flex-wrap: wrap;
+    height: 300px;
     background-color: white;
     padding: 20px;
     margin: 10px;
@@ -280,6 +280,7 @@ header{
     font-weight: 700;
     font-family: var(--main-font);
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .story-wrapper .clickBtn:hover{
@@ -296,7 +297,8 @@ header{
     margin: 10px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px black;
-    
+    max-width: 900px;
+    height: 300px;
 }
 
 
@@ -487,6 +489,16 @@ header{
         color: rgba(0, 0, 0, 0.509);
         font-weight: 500;
         margin: 20px 0px;
+    }
+
+    .story .story-wrapper .box-card{
+        height: auto;
+        
+    }
+
+    .story-wrapper .cardPreview{
+     
+        height: auto;
     }
     
     
