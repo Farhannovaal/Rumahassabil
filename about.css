@@ -286,6 +286,17 @@ header{
     background-color: grey;
 }
 
+.story-wrapper .cardPreview{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    z-index: 2;
+    flex-wrap: wrap;
+    display: none;
+
+    
+}
+
 
 
 @media screen and (max-width:960px){

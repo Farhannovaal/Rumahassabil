@@ -28,6 +28,11 @@ var swiper = new Swiper(".mySwiper", {
 
   });
 
-  function cardStory (){
-    alert (" On Progress ")
-  }
+function cardStory (){
+    var cardOpen = document.getElementById('cardPreview');
+    if (cardOpen.style.display === "none"){
+      cardOpen.style.display = "block";
+    } else {
+      cardOpen.style.display = "none";
+    }
+}
