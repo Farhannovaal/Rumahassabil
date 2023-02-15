@@ -26,7 +26,8 @@ var swiper = new Swiper(".mySwiper", {
       },
       
 
-  
-
-  
   });
+
+  function cardStory (){
+    alert (" On Progress ")
+  }

@@ -232,8 +232,21 @@ header{
 }
 
 .story .story-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.story .story-wrapper .box-card{
     margin-left: 15px;
-    text-align: center;     
+    text-align: center;
+    width: 400px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.439);
 }
 
 .story .story-wrapper .heading-story{
@@ -255,6 +268,20 @@ header{
     flex-wrap: wrap;
     font-family: var(--main-font);
     padding: 10px;
+}
+
+.story-wrapper .clickBtn{
+    background-color: var(--second-color);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    cursor: pointer;
+}
+
+.story-wrapper .clickBtn:hover{
+    background-color: grey;
 }
 
 
