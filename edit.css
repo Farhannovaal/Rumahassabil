@@ -357,7 +357,8 @@ header{
         border: 3px solid white;
         backdrop-filter: blur(3px);
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.42);
-        transition: .5s ease-in-out;    
+        transition: .5s ease-in-out;
+        flex-wrap: wrap;
     }
     .card-product:hover .detail-product{
         bottom: 0;
