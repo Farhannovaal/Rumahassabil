@@ -171,7 +171,7 @@ header{
     border: 3px solid white;
     backdrop-filter: blur(3px);
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.42);
-    transition: .5s ease-in-out;    
+    transition: .5s ease-in-out;
 }
 .card-product:hover .detail-product{
     bottom: 0;
@@ -194,11 +194,10 @@ header{
 
 
 .detail-product .title-card p{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     font-family: var(--heading-font);
     color: rgba(0, 0, 0, 0.747);
-    flex-wrap: wrap;
 }
 
 .detail-product .review{
