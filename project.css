@@ -151,6 +151,7 @@ header{
     width: 400px;
     border-radius: 20px;
     overflow-y: hidden;
+    margin-top: 20px;
 }
 
 .project-wrapper .card-product img{
@@ -193,18 +194,18 @@ header{
 
 
 
-.detail-product .title-card h1{
-    font-size: 30px;
-    font-weight: 800;
-    font-family: var(--heading-font);
-    color: rgba(0, 0, 0, 0.747);
-    
-}
+    .detail-product .title-card h1{
+        font-size: 30px;
+        font-weight: 800;
+        font-family: var(--heading-font);
+        color: rgba(0, 0, 0, 0.747);
+        
+    }
 
-.detail-product .title-card h1 span{
- 
-    color: palevioletred;
-}
+    .detail-product .title-card h1 span{
+     
+        color: palevioletred;
+    }
 
 .detail-product .review{
     display: flex;
@@ -445,7 +446,7 @@ header{
     }
 
     .project-wrapper{
-        margin:auto;
+        margin-left: 15px;
     }
 
     .project-wrapper .heading {
