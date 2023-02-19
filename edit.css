@@ -386,6 +386,12 @@ header{
         font-weight: 800;
         font-family: var(--heading-font);
         color: rgba(0, 0, 0, 0.747);
+        
+    }
+
+    .detail-product .title-card h1 span{
+     
+        color: palevioletred;
     }
     
     .detail-product .review{
