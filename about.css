@@ -270,6 +270,7 @@ header{
     flex-wrap: wrap;
     font-family: var(--main-font);
     padding: 10px;
+    height: auto;
 }
 
 .story-wrapper .clickBtn{
@@ -287,6 +288,8 @@ header{
     background-color: grey;
 }
 
+
+
 .story-wrapper .cardPreview{
     background-color: white;
     text-align: center;
@@ -298,9 +301,13 @@ header{
     border-radius: 20px;
     box-shadow: 2px 2px 2px black;
     max-width: 900px;
-    height: 300px;
+    height: auto;
+    text-align: start;
 }
 
+.story-wrapper .cardPreview .heading-Preview{
+    text-align: center;
+}
 
 
 @media screen and (max-width:960px){
