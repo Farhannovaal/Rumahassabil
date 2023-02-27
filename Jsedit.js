@@ -36,6 +36,3 @@ function cardStory (){
       cardOpen.style.display = "none";
     }
 }
-
-
-

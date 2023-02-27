@@ -39,6 +39,10 @@ body{
     z-index: 2;
 }
 
+.menu  i{
+    font-size: 30px;
+}
+
 section{
     margin-top: 60px;
 }
@@ -425,7 +429,7 @@ header{
 
 /* Project End */
 
-    @media screen and (max-width:960px){
+    @media screen and (max-width: 960px){
 
 
     
