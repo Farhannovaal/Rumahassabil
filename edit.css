@@ -554,10 +554,6 @@ header{
         border-radius: 20px;
         overflow-y: hidden;
     }
-
-    .content-left .heading-footer{
-        
-    }
     .content-left  .subheading-footer{
         font-size: 15px;
         font-weight: 400;
@@ -597,7 +593,7 @@ header{
     }
     .home-wrapper .sub-heading{
         color: #00000080;
-        width: 350px;
+        width: 30 0px;
         margin-top: 20px;
     }
     
@@ -627,7 +623,30 @@ header{
         color: var(--second-color);
         font-size: 30px;
     }
+    .home-wrapper .img-wrapper{
+        max-width: 3200px; 
+    }
+    .home-wrapper img{
+        width: 100%;
+    }
     
+    .home-wrapper .content-right img{
+        border-radius: 5px;
+        height: 300px;
+        width: 300px;
+    }
+    .home-wrapper .btnproject-wrapper{
+        font-size: 18px;
+        padding:20px 30px;
+        background-color: var(--main-color);
+        border-radius: 20px;
+        text-align: center;
+        color: #fff;
+        margin: 10px auto;
+        font-weight: 700;
+        font-family: var(--heading-font);
+        width: 250px;
+        cursor: pointer;
+        
+    }
 }
-
-
