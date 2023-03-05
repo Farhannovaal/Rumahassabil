@@ -160,7 +160,7 @@ header{
 }
 
 .home-wrapper .img-wrapper{
-    max-width: 500px; 
+    max-width: 600px; 
 }
 .home-wrapper img{
     width: 100%;
@@ -172,6 +172,11 @@ header{
 
 .home-wrapper .content-right{
     flex: 0 0 40%;
+}
+
+.home-wrapper .content-right img{
+    border-radius: 5px;
+    height: 400px;
 }
 /* Home End */  
 
@@ -262,41 +267,6 @@ header{
         color: #fff;
     }
 
-    .service-wrapper .row3{
-
-        text-align: center;
-        margin: 40px auto;
-    }
-    .row3 .label-row3{
-        font-size: 20px;
-        font-weight: 600;
-        font-family: var(--heading-font);
-        color: var(--second-color);
-    }
-
-    .row3 .heading-row3{
-        font-size: 25px;
-        font-weight: 700;
-        color: #00000085;
-        margin: 10px 10px;
-        font-family: var(--heading-font);
-    }
-
-    .row3 .galleryskill{
-        display: flex;
-        gap: 50px;
-        flex-wrap: wrap;
-        margin: 30px 40px;        
-        justify-content: center ;
-    }
-
-    .galleryskill .box-img{
-        width: 50px;
-    }
-
-    .galleryskill .box-img img{
-        width: 100%;
-    }
     
 
 /* Service End */
@@ -337,6 +307,7 @@ header{
     .project-wrapper .row2{
         margin:10px;
         width: 100%;
+        background-color: var(--main-color);
     }
     .project-wrapper .card-product{
         position: relative;
@@ -347,6 +318,7 @@ header{
 
     .project-wrapper .card-product img{
         width: 100%;
+        height: 400px;
     }
     
     .row2 .detail-product{

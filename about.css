@@ -131,15 +131,14 @@ header{
     
 }
 
-.home-wrapper .img-wrapper{
+.home-wrapper .content-right .img-wrapper{
     max-width: 500px;
+    margin-right: 50px;
 }
 
-.home-wrapper .img{
+.home-wrapper .content-right .img-wrapper .img{
     width: 100%;
 }
-
-
 
 .body-wrapper .heading-body{
     font-size: 45px;
