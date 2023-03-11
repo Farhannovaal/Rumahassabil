@@ -490,7 +490,7 @@ header{
         color: white;
         border-radius: 5px;
         font-family: var(--heading-font);
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .project-wrapper .row1-project .gallery-img{
@@ -501,8 +501,8 @@ header{
     }
 
     
-    .detail-product .title-card p{
-        font-size: 18px;
+    .project-wrapper .detail-product .title-card h1 {
+        font-size: 16px;
         font-weight: 800;
         font-family: var(--heading-font);
         color: rgba(0, 0, 0, 0.955);
@@ -512,6 +512,7 @@ header{
     .detail-product .review{
         display: flex;
         gap: 5px;
+        font-size: 12px;
     
     }
     
@@ -519,7 +520,7 @@ header{
         color: yellow;
     }
     .detail-product .body-card{
-        font-size: 15px;
+        font-size: 13px;
         margin: 25px 0;
         color: #00000080;
         font-weight: 400;
@@ -527,19 +528,20 @@ header{
     }
     .detail-product .btn-product{
         background-color: var(--second-color);
-        width: 50%;
+        width: 80px;
         margin: auto;
         text-align: center;
         padding: 10px;
         border-radius: 50px;
         font-family: var(--heading-font);
+        font-size: 14px;
     }
     .btn-product a{
         color: white;
     }
 
     .home-wrapper .sub-heading{
-        width: auto;
+        width:80px;
         flex-wrap: wrap;
     }
 
@@ -565,11 +567,19 @@ header{
         margin: auto;
     }
     .home-wrapper .subheading-home{
-        width: 350px;
+        width: 300px;
     }
 
-    .footer-wrapper .about{
-        margin-top: 20px;
+
+    .footer-wrapper .content-left .heading-footer{
+        color: var(--main-color);
+        font-family: var(--heading-font);
+        font-size: 30px;
+    }
+    .footer-wrapper .content-left .heading-footer span{
+        color: var(--second-color);
+        font-size: 20px;
+        font-weight: 700;
     }
     .home-wrapper .subheading-home{
         font-family: var(--main-font)   ;
@@ -587,12 +597,12 @@ header{
         font-weight: 700;
         
       }
-      .content-left  .subheading-footer{
-        font-size: 15px;
+      .content-left .subheading-footer{
+        font-size: 13px;
         font-weight: 400;
         color: #00000080;
         flex-wrap: wrap;
-        width: 350px;
+        width: 300px;
         font-family: var(--heading-font);
     }
     
@@ -611,7 +621,7 @@ header{
     .content-left .copyright{
         display: flex; 
         flex-wrap: wrap;   
-        width: 350px;
+        width: 300px;
     }
     .content-left .copyright p{
         font-size: 14px;
@@ -656,4 +666,6 @@ header{
         color: var(--second-color);
         font-size: 30px;
     }
+
+
 }

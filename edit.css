@@ -537,8 +537,9 @@ header{
         font-size: 35px;
     }
     .home-wrapper .sub-heading{
-        width: 280px;
+        width: 300px;
         flex-wrap: wrap;
+        font-size: 15px;
     }
 
     .home-wrapper .content-right img{
