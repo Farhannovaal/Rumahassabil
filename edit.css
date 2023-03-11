@@ -116,6 +116,7 @@ header{
     color: #00000080;
     width: 800px;
     margin-top: 20px;
+    font-size: 20px;
 }
 
 .box-career{
@@ -212,8 +213,7 @@ header{
         margin-top: 10px;
     }
 
-    .service-wrapper .row2{
-        
+    .service-wrapper .row2-box{
         background-color: var(--main-color);
         color: #fff;
         display: flex;
@@ -225,7 +225,7 @@ header{
         justify-content: space-around;
         margin: 10px;
     }
-    .row2 .box-service{
+    .row2-box .box-service{
         position: relative;
         max-width: 400px;
         text-align: center;
@@ -278,7 +278,6 @@ header{
         display: flex;
         justify-content: space-between;
         margin-left: 15px;
-        
     }
 
     .row1-project .label-project{
@@ -305,13 +304,13 @@ header{
     }
 
     .project-wrapper .row2{
-        margin:10px;
         width: 100%;
-        background-color: var(--main-color);
+        padding: 20px;
+        
     }
     .project-wrapper .card-product{
         position: relative;
-        width: 500px;
+        width: 400px;
         border-radius: 20px;
         overflow-y: hidden;
     }
@@ -532,42 +531,162 @@ header{
     }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:321px){
 
-    
+    .home-wrapper .heading{
+        font-size: 35px;
+    }
     .home-wrapper .sub-heading{
-        width: auto;
+        width: 280px;
         flex-wrap: wrap;
     }
 
-    .project-wrapper .toggle-slider i{
-        padding-top: 20px;
+    .home-wrapper .content-right img{
+        border-radius: 15px;
+        height: 400px;
+        width: 300px;
+        margin-top: 20px;
+
+    }
+    .row1-project .heading-project{
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--main-color);
+        margin-top: 10px;
+    }
+
+    .row1-project .toggle-slider i{
+        font-size: 25px;
+        cursor: pointer;
+        color: black;
+    }
+    .row1-project .toggle-slider i:hover{
+        color: var(--main-color);
     }
 
     .box-career{
-     
-        gap: 20px;
-      
-    }.project-wrapper .card-product{
+        gap: 20px; 
+    }
+    .project-wrapper .row2{
+        width: 100%;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .project-wrapper .card-product{
         position: relative;
-        width: 350px;
+        width: 300px;
         border-radius: 20px;
         overflow-y: hidden;
     }
-    .content-left  .subheading-footer{
+
+    .project-wrapper .card-product img{
+        width: 300px;
+        height: 400px;
+    }
+    
+    .row2 .detail-product{
+        background-color: rgba(245, 222, 179, 0.242);
+        position: absolute;
+        bottom: -50%;
+        width: 90%;
+        left:50%;
+        transform: translateX(-50%);
+        padding: 30px;
+        border-radius: 10px;
+        border: 3px solid white;
+        backdrop-filter: blur(3px);
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.42);
+        transition: .5s ease-in-out;
+    }
+    .card-product:hover .detail-product{
+        bottom: 0;
+        transition: .5s ease-in-out;
+    
+    }
+    
+    .detail-product .category{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .category .label-category{
+        padding: 5px 20px;
+        background-color: var(--second-color);
+        color: white;
+        border-radius: 5px;
+        font-family: var(--heading-font);
+        font-size: 14px;
+    }
+    
+
+    
+    .detail-product .title-card h1{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: var(--heading-font);
+        color: rgba(0, 0, 0, 0.747);
+        
+    }
+
+    .detail-product .title-card h1 span{
+     
+        color: palevioletred;
+    }
+    
+    .detail-product .review{
+        display: flex;
+        gap: 10px;
+        font-size: 14px;
+    
+    }
+    
+    .review i{
+        color: yellow;
+    }
+    .detail-product .body-card{
+        margin: 25px 0;
+        color: #00000080;
+        font-weight: 400;
+        font-family: var(--heading-font);
+        font-size: 14px;
+    }
+    .detail-product .btn-product{
+        background-color: var(--second-color);
+        width: 100px;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+        font-family: var(--heading-font);
+    }
+    .btn-product a{
+        color: white;
+        font-size: 14px;
+    }
+
+    .footer-wrapper .content-left .heading-footer{
+        font-size: 25px;
+    }
+    .footer-wrapper .content-left  .subheading-footer{
         font-size: 15px;
         font-weight: 400;
         color: #00000080;
         flex-wrap: wrap;
-        width: 350px;
+        width: 280px;
         font-family: var(--heading-font);
     }
     
-    .content-left .sosialmedia,.sosialmedia a {
+    .footer-wrapper .content-left .sosialmedia{
+        width: 280px;
         display: flex;
         justify-content: center;
-        gap: 50px;
-        margin: 30px auto;
+    }
+    .footer-wrapper .content-left .sosialmedia,.sosialmedia a {
+        
+        gap: 30px;
+        margin: 30px 10px;
         color: var(--main-color);
     }
     
@@ -578,7 +697,7 @@ header{
     .content-left .copyright{
         display: flex; 
         flex-wrap: wrap;   
-        width: 350px;
+        width: 280px;
     }
     .content-left .copyright p{
         font-size: 14px;
@@ -586,17 +705,13 @@ header{
         font-weight: 300;
         flex-wrap: wrap;
         width: 300px;
+        margin-top: 10px;
     }
     .content-left .copyright i{
         font-size: 15px;
         padding: 0px 5px;
     }
-    .home-wrapper .sub-heading{
-        color: #00000080;
-        width: 30 0px;
-        margin-top: 20px;
-    }
-    
+  
     .service-wrapper .label-skill{
         font-size: 15px;
         font-weight: 600px;
@@ -613,10 +728,11 @@ header{
     }
 
     .service-wrapper .subheading-skill{
-        font-size: 10px;
+        font-size: 15px;
         font-family: var(--heading-font);
         font-weight: 400;
         color: #00000075;
+        width: 280px;
 
     }
     .box-career .box i{
