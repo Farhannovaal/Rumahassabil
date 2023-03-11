@@ -106,7 +106,7 @@ header{
 
 .home-wrapper .content-left .sub-heading{
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 18px;
     flex-wrap: wrap;
     font-family: var(--main-font);
     font-weight: 500;
@@ -140,39 +140,6 @@ header{
     width: 100%;
 }
 
-.body-wrapper .heading-body{
-    font-size: 45px;
-    text-align: center;
-    color: var(--main-color);
-    font-weight: 700;
-    font-family: var(--main-font);
-}
-
-.body-wrapper .subheading-body{
-    font-size: 25px;
-    text-align: center;
-    font-family: var(--main-font);
-    color: rgba(0, 0, 0, 0.509);
-    font-weight: 500;
-    margin: 20px 0px;
-}
-
-.body-wrapper{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 15px;
-    gap: 15px;
-}
-
-.body-wrapper .content-right{
-    width: 500px;
-    
-}
-
-.body-wrapper .content-right img{
-    width: 100%;
-    border-radius: 20px;
-}
 
 /*  Footer */
 
@@ -196,7 +163,7 @@ header{
     font-weight: 400;
     color: #00000080;
     flex-wrap: wrap;
-    width: 350px;
+    width: 550px;
     font-family: var(--heading-font);
 }
 
